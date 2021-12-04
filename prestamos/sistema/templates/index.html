@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<!--<h1>Local Library Home</h1>-->
+
+<p>Queremos saber tu opinion, aqui podras escribir acerca de la experiencia con los equipos.</p>
+
+<h2>Comentarios</h2>
+
+<p>El sistema cuanta con los siguientes comentarios</p>
+<ul>
+  <li><strong>Comentarios:</strong> {{ num_comentarios }}</li>
+  
+</ul>
+<!--
+<p>You have visited this page {{ num_visits }}{% if num_visits == 1 %} time{% else %} times{% endif %}.</p>
+-->
+
+{% endblock %}

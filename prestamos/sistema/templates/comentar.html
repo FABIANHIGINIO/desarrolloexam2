@@ -1,0 +1,24 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+<p>Queremos saber tu opinion, Escribe tu comentario.</p>
+
+<h2>Comentar</h2>
+
+<p>El sistema cuanta con los siguientes comentarios</p>
+<form action="" method="post">
+  <label for="equipo">Nombre de equipo:</label>
+  <input type="text" name="">
+  <label for="ip">ip:</label><br>
+  <input type="text" id="ip" name="ip">
+  <label for="comentario">comentario:</label><br>
+  <input type="text" id="lname" name="lname">
+    <input type="submit" value="Submit" />
+
+</form>
+<!--
+<p>You have visited this page {{ num_visits }}{% if num_visits == 1 %} time{% else %} times{% endif %}.</p>
+e-->
+
+{% endblock %}
